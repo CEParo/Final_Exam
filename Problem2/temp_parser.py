@@ -13,7 +13,7 @@ def main():
         if eval(line) < temp:
             below += 1
 
-    avg=Sum/Temp
+    avg=total/temps
 
     print('''File name of sensor temperatures: {0}
 Number of temperatures below {1}: {2}
